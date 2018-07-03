@@ -4,7 +4,7 @@
   "description": "Simple, extensible game engine allowing creation of games using composition of components thru XML.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "./scripts/build-dist.sh",
+    "build": "babel ./src --out-dir ./dist",
     "test": "mocha 'src/**/*-test.js'",
     "test+coverage": "istanbul cover $(npm bin)/_mocha 'src/**/*-test.js'",
     "package": "npm run build && npm pack",
