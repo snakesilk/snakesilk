@@ -1,6 +1,6 @@
 {
   "name": "@snakesilk/xml-loader",
-  "version": "0.13.0",
+  "version": "0.13.1-0",
   "description": "Loader for SnakeSilk engine using XML as storage format.",
   "main": "./dist/index.js",
   "scripts": {
@@ -27,9 +27,9 @@
     "@snakesilk/platform-traits": ">=0.5.0"
   },
   "devDependencies": {
-    "@snakesilk/engine": ">=0.14.0",
-    "@snakesilk/platform-traits": ">=0.5.0",
-    "@snakesilk/testing": "^0.2.1",
+    "@snakesilk/engine": "^0.15.1-0",
+    "@snakesilk/platform-traits": "^0.6.1-0",
+    "@snakesilk/testing": "^0.2.2-0",
     "babel-cli": "6",
     "babel-preset-es2015": "6",
     "codecov": "^1.0.1",

@@ -1,6 +1,6 @@
 {
   "name": "@snakesilk/engine",
-  "version": "0.14.0",
+  "version": "0.15.1-0",
   "description": "Simple, extensible game engine allowing creation of games using composition of components thru XML.",
   "main": "./dist/index.js",
   "scripts": {
@@ -22,17 +22,18 @@
     "url": "https://github.com/snakesilk/snakesilk-engine/issues"
   },
   "homepage": "https://github.com/snakesilk/snakesilk-engine#readme",
-  "dependencies": {
+  "peerDependencies": {
     "three": "0.70"
   },
   "devDependencies": {
-    "@snakesilk/testing": "^0.2.1",
+    "@snakesilk/testing": "^0.2.2-0",
     "babel-cli": "6",
     "babel-preset-es2015": "6",
     "codecov": "^1.0.1",
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
-    "sinon": "^1.17.5"
+    "sinon": "^1.17.5",
+    "three": "0.70"
   }
 }
