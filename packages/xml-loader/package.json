@@ -1,0 +1,42 @@
+{
+  "name": "@snakesilk/xml-loader",
+  "version": "0.13.0",
+  "description": "Loader for SnakeSilk engine using XML as storage format.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "./scripts/build-dist.sh",
+    "test": "mocha './src/**/*-test.js'",
+    "test+coverage": "istanbul cover $(npm bin)/_mocha './src/**/*-test.js'",
+    "package": "npm run build && npm pack",
+    "publish+npm": "npm run build && npm publish",
+    "upload-coverage": "codecov -f coverage/lcov.info --disable=gcov",
+    "watch": "babel ./src --out-dir ./dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakesilk/snakesilk-xml-loader.git"
+  },
+  "author": "Pontus Persson <pontus.alexander@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snakesilk/snakesilk-xml-loader/issues"
+  },
+  "homepage": "https://github.com/snakesilk/snakesilk-xml-loader#readme",
+  "peerDependencies": {
+    "@snakesilk/engine": ">=0.14.0",
+    "@snakesilk/platform-traits": ">=0.5.0"
+  },
+  "devDependencies": {
+    "@snakesilk/engine": ">=0.14.0",
+    "@snakesilk/platform-traits": ">=0.5.0",
+    "@snakesilk/testing": "^0.2.1",
+    "babel-cli": "6",
+    "babel-preset-es2015": "6",
+    "codecov": "^1.0.1",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "three": "0.70"
+  }
+}
