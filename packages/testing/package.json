@@ -1,6 +1,6 @@
 {
   "name": "@snakesilk/testing",
-  "version": "0.2.2-1",
+  "version": "0.2.2",
   "description": "Testing library used by SnakeSilk.",
   "license": "MIT",
   "scripts": {
