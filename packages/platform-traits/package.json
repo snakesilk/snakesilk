@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "./scripts/build.sh",
+    "build": "babel ./src --out-dir ./dist",
+    "prepublish": "npm run build",
     "test": "mocha './src/**/*-test.js'",
     "watch": "babel ./src --out-dir ./dist --watch"
   },
