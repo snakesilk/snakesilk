@@ -1,5 +1,7 @@
 {
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	}
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
