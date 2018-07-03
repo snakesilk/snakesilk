@@ -1,6 +1,6 @@
 {
   "name": "@snakesilk/platform-traits",
-  "version": "0.6.1-0",
+  "version": "0.6.1-1",
   "description": "Traits useful for making platform games with Snakesilk Game Engine",
   "license": "MIT",
   "main": "./dist/index.js",

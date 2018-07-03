@@ -1,6 +1,6 @@
 {
   "name": "@snakesilk/megaman-traits",
-  "version": "0.1.1-0",
+  "version": "0.1.1-1",
   "description": "Traits useful for making Megaman games with Snakesilk Game Engine",
   "license": "MIT",
   "main": "./dist/index.js",
