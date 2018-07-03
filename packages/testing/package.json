@@ -8,11 +8,9 @@
   },
   "dependencies": {
     "jsdom": "^11.1.0",
-    "sinon": "^1.17.3",
-    "three": "0.70"
+    "sinon": "^1.17.3"
   },
-  "devDependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^3.4.2"
+  "peerDependencies": {
+    "three": "0.70"
   }
 }
